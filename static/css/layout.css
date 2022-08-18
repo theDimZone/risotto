@@ -1,5 +1,6 @@
 /* 1rem = 16px by default */
 
+
 .page {
     max-width: 64rem;
     margin: 1rem auto;
@@ -45,6 +46,28 @@
     box-shadow: 0 0 0 1rem var(--bg);
     overflow-wrap: break-word;
 }
+
+.index {
+    /* background-color: var(--bright-bg); */
+    height: 23.5rem;
+}
+
+.index img {
+    padding: 0px;
+    height: 23rem;
+}
+
+@media (min-width: 45rem) {
+    .index {
+        /*height: 496px; */
+        height: 32.5rem;
+    }
+
+    .index img {
+        height: auto;
+    }
+}
+
 
 .page__aside {
     grid-area: aside;
